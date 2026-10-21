@@ -7,4 +7,3 @@
 - `anzan/privacy.html` / `anzan/privacy-en.html` … 「先取り 暗算マスター」のプライバシーポリシー。
   原本は F161_Anzan の `docs/privacy_policy.md` / `docs/privacy_policy_en.md`。
   `python tool/privacy_policy_html.py --site C:/Projects/utamaro174.github.io/anzan` で書き出す（直接編集しない）。
-- `app-ads.txt` … AdMob の app-ads.txt（ストアの「開発者のウェブサイト」に https://utamaro174.github.io/ を登録する）。
