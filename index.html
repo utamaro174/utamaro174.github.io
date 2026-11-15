@@ -21,7 +21,9 @@
     .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; padding: 0; list-style: none; font-size: .85rem; }
     .tags li { border: 1px solid var(--line); border-radius: 999px; padding: 0 10px; }
     .badges { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 28px 0 20px; }
-    .badges img { display: block; height: 40px; width: auto; }
+    .badges img { display: block; height: 48px; width: auto; }
+    /* App Store のバッジは黒い部分の外に約1pxの灰色のふちがあるので、黒い部分の高さを Google Play とそろえるため少し大きくする */
+    .badges img.as { height: 50px; margin: -1px 0; }
     .soon { display: inline-block; margin: 12px 0 8px; border: 1px dashed var(--line); border-radius: 999px; padding: 0 12px; color: var(--muted); font-size: .85rem; }
     .note { color: var(--muted); font-size: .75rem; line-height: 1.6; margin-top: 32px; }
   </style>
@@ -34,8 +36,8 @@
     <div class="app">
       <img src="img/kanji-icon.png" alt="" width="72" height="72">
       <div class="badges">
-        <a href="https://apps.apple.com/jp/app/%E5%85%88%E5%8F%96%E3%82%8A-%E6%BC%A2%E5%AD%97%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6827497996" target="_blank" rel="noopener"><img src="img/app-store-ja.svg" alt="App Store からダウンロード（先取り 漢字マスター）" width="109" height="40"></a>
-        <a href="https://play.google.com/store/apps/details?id=com.study_site.kanji" target="_blank" rel="noopener"><img class="gp" src="img/google-play-ja.png" alt="Google Play で手に入れよう（先取り 漢字マスター）" width="135" height="40"></a>
+        <a href="https://apps.apple.com/jp/app/%E5%85%88%E5%8F%96%E3%82%8A-%E6%BC%A2%E5%AD%97%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6827497996" target="_blank" rel="noopener"><img class="as" src="img/app-store-ja.svg" alt="App Store からダウンロード（先取り 漢字マスター）" width="136" height="50"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.study_site.kanji" target="_blank" rel="noopener"><img class="gp" src="img/google-play-ja.png" alt="Google Play で手に入れよう（先取り 漢字マスター）" width="162" height="48"></a>
       </div>
       <div>
       <p>小1から中学受験まで、漢字をひと足先に学べるアプリです。<br>
@@ -59,8 +61,8 @@
     <div class="app">
       <img src="img/anzan-icon.png" alt="" width="72" height="72">
       <div class="badges">
-        <a href="https://apps.apple.com/jp/app/%E5%85%88%E5%8F%96%E3%82%8A-%E6%9A%97%E7%AE%97%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6826563706" target="_blank" rel="noopener"><img src="img/app-store-ja.svg" alt="App Store からダウンロード（先取り 暗算マスター）" width="109" height="40"></a>
-        <a href="https://play.google.com/store/apps/details?id=com.utamaro174.f161_anzan" target="_blank" rel="noopener"><img class="gp" src="img/google-play-ja.png" alt="Google Play で手に入れよう（先取り 暗算マスター）" width="135" height="40"></a>
+        <a href="https://apps.apple.com/jp/app/%E5%85%88%E5%8F%96%E3%82%8A-%E6%9A%97%E7%AE%97%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6826563706" target="_blank" rel="noopener"><img class="as" src="img/app-store-ja.svg" alt="App Store からダウンロード（先取り 暗算マスター）" width="136" height="50"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.utamaro174.f161_anzan" target="_blank" rel="noopener"><img class="gp" src="img/google-play-ja.png" alt="Google Play で手に入れよう（先取り 暗算マスター）" width="162" height="48"></a>
       </div>
       <div>
       <p>小1から中学までの計算を、ひと足先に暗算で練習できるアプリです。<br>
